@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+h1 {
+	font-size: 2em;
+}
+div.fld {
+	background: #ccd5e1;
+	border-radius: 10px;
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.mynav {
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul li {
+	display: inline;
+}
+ul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+}
