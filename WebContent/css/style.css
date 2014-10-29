@@ -1,11 +1,18 @@
 @CHARSET "ISO-8859-1";
+body {
+	background-image: url("../images/Bill-2.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
+	background-attachment: fixed;
+}
 h1 {
-	font-size: 2em;
+	font-size: 3em;
 }
 div.fld {
 	background: #ccd5e1;
 	border-radius: 10px;
-	border-color: black;
+	border-color: navy;
 	border-width: 3px;
 	border-style: solid;
 	margin-top: 10px;
@@ -13,9 +20,19 @@ div.fld {
 }
 
 .mynav {
-	position: absolute;
-	top: 20px;
-	right: 0;
+	position: fixed;
+	top: 60px;
+	z-index: 999;
+}
+div.mynavitem {
+	background: white;
+	border-radius: 8px;
+	border-color: navy;
+	border-width: 3px;
+	border-style: solid;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 ul {
