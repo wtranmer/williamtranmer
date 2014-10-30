@@ -19,7 +19,7 @@ div.fld {
 	margin-bottom: 10px;
 }
 
-.mynav {
+na .mynav {
 	position: fixed;
 	top: 60px;
 	z-index: 999;
@@ -30,20 +30,31 @@ div.mynavitem {
 	border-color: navy;
 	border-width: 3px;
 	border-style: solid;
-	padding: 0;
+	padding: 6px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-ul {
+.mynav ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 }
-ul li {
+.mynav ul li {
 	display: inline;
 }
-ul li a {
+.mynav ul li a {
 	text-decoration: none;
 	padding: .2em 1em;
 }
+
+.positionheld {
+	margin-top: 10px;
+}
+.employer {
+	font-weight: bold;
+}
+.workdates {}
+.worktitle {}
+.workhighlights {}
+.workresponsibilities {}
